@@ -1,4 +1,4 @@
-include "main.h"
+#include "main.h"
 
 /**
  * print_line - printing lines
@@ -9,9 +9,9 @@ include "main.h"
 
 void print_line(int n)
 {
-	int y;
+	int k;
 
-	for (y = 0; y < n; y++)
+	for (k = 0; k < n; k++)
 	{
 		_putchar('_');
 	}
