@@ -1,3 +1,22 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 #include "main.h"
 
 /**
@@ -8,16 +27,19 @@
 
 void more_numbers(void)
 {
-	int x, fx;
+	int i, ch;
 
-	for (i = 0; x < 10; x++)
+	for (i = 0; i < 10; i++)
 	{
-		for (fx = 0; fx <= 14; fx++)
+		for (ch = 0; ch < 15; ch++)
 		{
-			if (fx >= 10)
-				_putchar((fx / 10) + 48);
-			_putchar((fx % 10) + 48);
+			if (ch >= 10)
+				_putchar((ch / 10) + 48);
+			_putchar((ch % 10) + 48);
 		}
 		_putchar('\n');
 	}
 }
+
+
+
