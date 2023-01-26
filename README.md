@@ -1,10 +1,11 @@
-Low-Level Programming in C
+# Low-Level Programming in C
 
 Welcome to this guide on low-level programming in C! This guide is intended for programmers who are new to low-level programming or who are looking to refresh their knowledge.
 What is low-level programming?
 
 Low-level programming is a type of programming that deals with the inner workings of a computer system. This includes working with memory, registers, and other hardware-level constructs. Programs written in low-level languages, such as C, have direct access to the hardware, which allows for more control over the system but also requires a greater understanding of the underlying architecture.
-Why C?
+
+# Why C?
 
 C is a popular choice for low-level programming because it is a relatively simple and portable language. It allows for direct manipulation of memory and provides a high degree of control over the system. Additionally, many operating systems and embedded systems are written in C, making it a valuable skill for working on such projects.
 Getting Started
